@@ -699,7 +699,7 @@ docker run -d -p 5000:5000 -v /opt/registry:/var/lib/registry --name registry re
 ```bash
 # 数讯的账号: JNPR-Customer63
 # 密码：FwkLHQ6cCKXBR2AJETdV
-docker login hub.juniper.net --username JNPR-Customer63 --password FwkLHQ6cCKXBR2AJETdV
+docker login hub.juniper.net --username JNPR-Customerxx --password xxxxxxxxxxxxxx
 
 list="contrail-controller-control-named contrail-vrouter-kernel-init-dpdk contrail-controller-webui-web contrail-analytics-alarm-gen contrail-kubernetes-cni-init contrail-analytics-topology contrail-vcenter-manager contrail-nodemgr contrail-kubernetes-kube-manager contrail-debug contrail-external-dhcp contrail-openstack-ironic-notification-manager contrail-node-init contrail-vrouter-agent contrail-analytics-api contrail-controller-config-schema contrail-vrouter-kernel-init contrail-external-redis contrail-vrouter-kernel-build-init contrail-external-cassandra contrail-analytics-snmp-collector contrail-controller-control-dns contrail-analytics-query-engine contrail-vrouter-agent-dpdk contrail-analytics-collector contrail-controller-control-control contrail-openstack-compute-init contrail-controller-config-devicemgr contrail-controller-webui-job contrail-openstack-neutron-init contrail-openstack-heat-init contrail-vcenter-plugin contrail-controller-config-api contrail-external-zookeeper contrail-status contrail-external-rabbitmq contrail-external-tftp contrail-external-kafka contrail-controller-config-svcmonitor"
 
